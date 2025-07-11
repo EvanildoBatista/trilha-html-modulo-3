@@ -36,3 +36,24 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+article h2{
+    margin-top: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+table tr:nth-child(even){
+    background-color: cornsilk;
+}
+table tr:hover td{
+    background-color: wheat;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
